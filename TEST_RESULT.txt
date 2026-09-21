@@ -1,0 +1,18 @@
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 772, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/connection.py", line 37, in get_or_create_client
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/daemon.py", line 124, in start_daemon
+TimeoutError: Timed out waiting for artifact tool daemon socket. Set ARTIFACT_TOOL_RPC_DAEMON_STARTUP_TIMEOUT_S=<seconds> to increase the limit.
+test_birthday_paradox_near_half_for_23 (test_labs.CuriosityLabTests.test_birthday_paradox_near_half_for_23) ... ok
+test_bloom_filter_keeps_inserted_items (test_labs.CuriosityLabTests.test_bloom_filter_keeps_inserted_items) ... ok
+test_hash_avalanche_changes_many_bits (test_labs.CuriosityLabTests.test_hash_avalanche_changes_many_bits) ... ok
+test_hash_ring_returns_known_node (test_labs.CuriosityLabTests.test_hash_ring_returns_known_node) ... ok
+test_tiny_search_ranks_relevant_doc (test_labs.CuriosityLabTests.test_tiny_search_ranks_relevant_doc) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.035s
+
+OK
